@@ -11,19 +11,30 @@
   --color-yellow: #FFB964;
   --color-offwhite: #FCFAF9;
   --color-dark: #191826;
+}
 
-  --text-h1: 88px;
-  --text-h1--line-height: 88px;
-  --text-h1--letter-spacing: -1px;
+@layer components {
+  .text-h1 {
+    @apply text-[40px] font-bold leading-[48px] -tracking-[0.45px]
+           md:text-[64px] md:leading-[64px] md:-tracking-[0.73px]
+           lg:text-[88px] lg:leading-[88px] lg:-tracking-[1px];
+  }
 
-  --text-h2: 40px;
-  --text-h2--line-height: 52px;
+  .text-h2 {
+    @apply text-[32px] font-bold leading-[40px]
+           lg:text-[40px] lg:leading-[52px];
+  }
 
-  --text-body-1: 20px;
-  --text-body-1--line-height: 34px;
+  .text-body-1 {
+    @apply text-base leading-[26px]
+           md:text-lg md:leading-[28px]
+           lg:text-xl lg:leading-[34px];
+  }
 
-  --text-body-2: 16px;
-  --text-body-2--line-height: 26px;
+  .text-body-2 {
+    @apply text-sm leading-6
+           lg:text-base lg:leading-[26px];
+  }
 }
 
 body {
