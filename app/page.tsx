@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FirstSection } from "@/components/FirstSection";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Image src="/assets/bg-main-desktop.png" alt="" width={1440} height={1832} className="h-auto w-full object-cover hidden lg:block" priority />
       </div>
       <FirstSection />
+      <Footer />
     </main>
   );
 }
