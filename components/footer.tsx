@@ -35,7 +35,7 @@ export function Footer() {
                 </div>
 
                 <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between lg:flex-1 lg:items-center lg:px-8">
-                    <div className="text-body-2 max-w-[327px] md:max-w-[366px] lg:max-w-[366px]">
+                    <div className="text-body-2 w-[250px] md:w-[390px] lg:w-[390px]">
                         <p>All rights reserved © Equalizer 2021</p>
                         <p>Have any problems? Contact us via social media or email us at 
                         <span className="font-bold"> equalizer@example.com</span></p>

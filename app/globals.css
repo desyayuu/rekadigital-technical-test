@@ -17,7 +17,7 @@
   .text-h1 {
     @apply text-[40px] font-bold leading-[48px] -tracking-[0.45px]
            md:text-[64px] md:leading-[64px] md:-tracking-[0.73px]
-           lg:text-[88px] lg:leading-[88px] lg:-tracking-[1px];
+           lg:text-[88px] lg:leading-[88px] lg:-tracking-[-1px];
   }
 
   .text-h2 {
@@ -26,14 +26,19 @@
   }
 
   .text-body-1 {
-    @apply text-base leading-[26px]
-           md:text-lg md:leading-[28px]
-           lg:text-xl lg:leading-[34px];
+    @apply text-[18px] leading-[26px]
+           md:text-[18px] md:leading-[26px]
+           lg:text-[20px] lg:leading-[34px];
   }
 
   .text-body-2 {
     @apply text-sm leading-6
-           lg:text-base lg:leading-[26px];
+            md:text-[18px] md:leading-[26px]
+            lg:text-[18px] lg:leading-[32px] leading-[32px];
+  }
+
+  .text-button{
+    @apply text-[18px] lg:leading-[32px] lg:-tracking-[-0.18px];
   }
 }
 
