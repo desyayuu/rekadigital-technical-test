@@ -22,7 +22,7 @@ function SocialIcon({ src, label }: { src: string; label: string }) {
 
 export function Footer() {
     return (
-        <div className="px-6 py-10 md:px-10 md:py-14 lg:px-[165px] lg:py-[62px]">
+        <div className="px-6 py-10 md:px-10 md:py-14 lg:px-[130px] lg:py-[62px]">
             <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between lg:gap-8">
                 <div className="h-8 w-[146px] shrink-0 self-start">
                     <Image
