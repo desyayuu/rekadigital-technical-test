@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function FrontCard() {
   return (
-    <div className="rounded-[12px] bg-coral p-8 md:p-10 w-[375px] h-[546px] md:w-[399px] md:h-[546px] lg:w-[446px] lg:h-[625px] lg:w-[333px]">
+    <div className="rounded-[12px] bg-coral p-8 md:p-10 w-auto h-[546px] md:w-[399px] md:h-[546px] lg:w-[446px] lg:h-[625px] lg:w-[333px]">
       <h2 className="text-h2 mt-6 mb-6 text-offwhite">Premium EQ</h2>
       <p className="text-body-1 text-offwhite lg:w-[333px]">
         Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!
